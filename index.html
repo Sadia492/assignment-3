@@ -1,0 +1,174 @@
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockey's</title>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/08421737f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- daisyUi and tailwind cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              primary: "#ABEF5F",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- header section starts here -->
+    <header class="bg-gradient-to-b from-[#f4f4f4] to-white/0 mb-24">
+      <!-- nav section -->
+      <nav class="py-12 xl:w-4/5 w-11/12 mx-auto">
+        <div class="navbar bg-transparent">
+          <div class="navbar-start">
+            <a href="#" class="flex items-center"
+              ><i
+                class="fa-solid fa-arrow-right bg-primary rounded-full p-4 -rotate-45"
+              ></i>
+              <span class="font-extrabold text-3xl ml-1">Rinterio</span></a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu-horizontal space-x-6 px-1 cursor-pointer">
+              <li class="hover:font-extrabold">
+                <a>Home</a>
+              </li>
+              <li class="hover:font-extrabold">
+                <a>Services</a>
+              </li>
+              <li class="hover:font-extrabold">
+                <a>Portfolio</a>
+              </li>
+              <li class="hover:font-extrabold">
+                <a>Blogs</a>
+              </li>
+              <li class="hover:font-extrabold">
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="flex invisible xl:space-x-4 md:visible">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-10 rounded-full border bg-white p-2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-10 rounded-full border bg-white p-2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              <a
+                class="btn bg-primary rounded-3xl hover:bg-primary flex items-center"
+              >
+                <span class="font-extrabold text-xl"> Book Consult</span>
+                <i
+                  class="fa-solid fa-arrow-right bg-[#1C1C1C] text-white rounded-full p-2 -rotate-45"
+                ></i
+              ></a>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i
+                  class="fa-solid fa-bars bg-white p-4 border rounded-full"
+                ></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              >
+                <li>
+                  <a>Home</a>
+                </li>
+                <li>
+                  <a>Services</a>
+                </li>
+                <li>
+                  <a>Portfolio</a>
+                </li>
+                <li>
+                  <a>Blogs</a>
+                </li>
+                <li>
+                  <a>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <div
+        class="lg:w-4/5 w-11/12 mx-auto flex justify-center items-center flex-col space-y-6"
+      >
+        <div><img class="w-full" src="assets/banner.png" alt="" /></div>
+        <h1 class="font-black text-6xl text-center">
+          A barn house of this design has a <br />
+          striking appearance
+        </h1>
+        <p class="font-medium text-gray-500 text-center">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal <br />accents,
+          and large windows that flood the space with natural light.
+        </p>
+        <button
+          class="btn bg-primary/50 rounded-3xl hover:bg-primary/50 flex items-center"
+        >
+          <span class="font-extrabold text-xl">View Details</span>
+          <i
+            class="fa-solid fa-arrow-right bg-primary text-black rounded-full p-2 -rotate-45"
+          ></i>
+        </button>
+      </div>
+    </header>
+    <!-- header section starts here -->
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
