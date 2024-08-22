@@ -30,16 +30,20 @@
               clifford: "#da373d",
               primary: "#ABEF5F",
               secondary: "#F4F4F4",
+              accent: "#494949",
+            },
+            fontFamily: {
+              manrope: "manrope",
             },
           },
         },
       };
     </script>
-    <style>
+    <!-- <style>
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
-    </style>
+    </style> -->
   </head>
   <body class="font-manrope">
     <!-- header section starts here -->
@@ -153,7 +157,7 @@
           A barn house of this design has a <br />
           striking appearance
         </h1>
-        <p class="font-medium text-gray-500 text-center">
+        <p class="font-medium text-accent text-center">
           The barn house captivates with its blend of rustic charm and modern
           sophistication, featuring weathered wood, sleek metal <br />accents,
           and large windows that flood the space with natural light.
@@ -169,10 +173,10 @@
       </div>
     </header>
     <!-- header section starts here -->
-    <main class="bg-secondary space-y-24">
+    <main class="bg-secondary">
       <!-- space section starts here -->
       <section
-        class="flex items-center flex-col lg:flex-row gap-9 lg:w-4/5 w-11/12 mx-auto pt-24"
+        class="flex items-center flex-col lg:flex-row gap-9 lg:w-4/5 w-11/12 mx-auto pt-24 pb-24"
       >
         <div
           class="flex-1 relative flex flex-col justify-start items-center lg:items-start lg:justify-start"
@@ -189,7 +193,7 @@
             We design thoughtful,<br />
             liveable spaces
           </h2>
-          <p class="font-medium text-gray-500 my-6 text-center lg:text-start">
+          <p class="font-medium text-accent my-6 text-center lg:text-start">
             The barn house captivates with its blend of rustic charm and
             <br />
             modern sophistication, featuring weathered wood, sleek metal
@@ -205,8 +209,8 @@
                 <img class="w-full" src="assets/commercial.png" alt="" />
               </div>
               <div class="space-y-2">
-                <h4 class="font-extrabold text-gray-500 text-xl">Commercial</h4>
-                <p class="text-gray-500">
+                <h4 class="font-extrabold text-accent text-xl">Commercial</h4>
+                <p class="text-accent">
                   The barn house captivates with its blend <br />of rustic charm
                   and modern.
                 </p>
@@ -219,10 +223,8 @@
                 <img class="w-full" src="assets/residential.png" alt="" />
               </div>
               <div class="space-y-2">
-                <h4 class="font-extrabold text-xl text-gray-500">
-                  Residential
-                </h4>
-                <p class="text-gray-500">
+                <h4 class="font-extrabold text-xl text-accent">Residential</h4>
+                <p class="text-accent">
                   The barn house captivates with its blend <br />of rustic charm
                   and modern.
                 </p>
@@ -239,6 +241,34 @@
         </div>
       </section>
       <!-- space section ends here -->
+      <!-- member section starts here -->
+      <section class="lg:w-4/5 w-11/12 mx-auto pb-24">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 bg-white rounded-2xl p-6"
+        >
+          <div class="flex flex-col justify-center items-center">
+            <img src="assets/comment-01.png" alt="" />
+            <h4 class="text-accent font-extrabold text-4xl">235+</h4>
+            <p class="font-medium text-accent">Happy Client Review</p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <img src="assets/departement.png" alt="" />
+            <h4 class="text-accent font-extrabold text-4xl">50+</h4>
+            <p class="font-medium text-accent">Work Departments</p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <img src="assets/Group8.png" alt="" />
+            <h4 class="text-accent font-extrabold text-4xl">30k+</h4>
+            <p class="font-medium text-accent">Our Happy Client</p>
+          </div>
+          <div class="flex flex-col justify-center items-center">
+            <img src="assets/user-multiple.png" alt="" />
+            <h4 class="text-accent font-extrabold text-4xl">307+</h4>
+            <p class="font-medium text-accent">Staff Members</p>
+          </div>
+        </div>
+      </section>
+      <!-- member section ends here -->
     </main>
     <footer></footer>
   </body>
